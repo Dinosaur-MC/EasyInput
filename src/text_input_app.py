@@ -152,7 +152,7 @@ class TextInputApp:
 
         self.clear_line_check = ttk.Checkbutton(
             options_frame,
-            text="换行前清空当前行\n(处理IDE自动缩进)",
+            text="换行后清空当前行\n(处理IDE自动缩进)",
             variable=self.clear_line_after_enter,
         )
         self.clear_line_check.pack(side=tk.LEFT, padx=8)
