@@ -9,12 +9,14 @@ from pynput import keyboard
 from .hotkey_dialog import HotkeyDialog
 from .input_method import InputMethod, VK_ESCAPE
 
+APP_VERSION = "0.1.0"
+
 
 # ==================== 主应用程序 ====================
 class TextInputApp:
     def __init__(self, root: tk.Tk):
         self.root = root
-        self.root.title("万能文本输入器")
+        self.root.title(f"万能文本输入器 v{APP_VERSION}")
         self.root.geometry("600x540")
 
         # 配置变量

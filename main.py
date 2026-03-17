@@ -7,10 +7,11 @@
 """
 
 import tkinter as tk
-from src.text_input_app import TextInputApp
+from src.text_input_app import TextInputApp, APP_VERSION
+
+__version__ = APP_VERSION
 
 
-# ==================== 启动 ====================
 if __name__ == "__main__":
     root = tk.Tk()
     app = TextInputApp(root)
