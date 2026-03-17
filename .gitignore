@@ -8,6 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+venv
 
 # Configuration
-text_input_config.json
+config.json

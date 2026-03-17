@@ -1,7 +1,7 @@
 [project]
 name = "easyinput"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Universal Text Input Simulator"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
